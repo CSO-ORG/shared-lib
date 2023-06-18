@@ -1,5 +1,5 @@
 {
-  "name": "@csopetfinder/shared",
+  "name": "@cso-org/shared",
   "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
