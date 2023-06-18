@@ -17,14 +17,12 @@ export enum ACCOUNT_SERVICE_MESSAGE {
   PASSWORD_NOT_RESET = "password.not.reset",
   ACCESS_DENIED = "access.denied",
   USER_LOGGED_OUT = "user.logged.out",
-  SITTER_PROFILE_NOT_CREATED = "sitter.profile.not.created",
-  CLIENT_PROFILE_NOT_CREATED = "client.profile.not.created",
+  PROFILE_NOT_CREATED = "profile.not.created",
   IMAGE_NOT_UPLOADED = "image.not.uploaded",
   IMAGE_NOT_REMOVED = "image.not.removed",
   PROFILE_NOT_FOUND = "profile.not.found",
   PROFILE_UPDATED = "profile.updated",
   PROFILE_NOT_UPDATED = "profile.not.updated",
-  RECOMMENDED_PROFILES_NOT_FETCHED = "recommended.profiles.not.found",
 }
 
 export enum GENERIC_MESSAGE {

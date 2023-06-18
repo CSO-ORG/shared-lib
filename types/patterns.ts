@@ -12,11 +12,6 @@ export enum ACCOUNT_SERVICE_MESSAGE_PATTERN {
   HEALTHCHECK = "account-service.healthcheck",
   UPLOAD_IMAGE = "account-service.upload-image",
   REMOVE_IMAGE = "account-service.remove-image",
-  GET_SITTER_PROFILE = "account-service.get-sitter-profile",
-  GET_CLIENT_PROFILE = "account-service.get-client-profile",
-  UPDATE_USER_PROFILE = "account-service.update-user-profile",
-  GET_RECOMMENDED_PROFILES = "account-service.get-recommended-profiles",
-  GET_SITTER_PROFILE_BY_ID = "account-service.get-sitter-profile-by-id",
-  GET_CLIENT_PROFILE_BY_ID = "account-service.get-client-profile-by-id",
-  GET_FILTERED_PROFILES = "account-service.get-filtered-profiles",
+  GET_USER_PROFILE = "account-service.get-user-profile",
+  GET_PROFILE = "account-service.get-profile",
 }
