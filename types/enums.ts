@@ -13,4 +13,5 @@ export enum PET_TYPE {
   horse = "horse",
   sheep = "sheep",
   goat = "goat",
+  other = "other",
 }
