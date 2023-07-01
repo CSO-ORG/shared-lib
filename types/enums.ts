@@ -1,5 +1,6 @@
 export enum ACCOUNT_TYPE {
   USER = "user",
+  MODERATOR = "moderator",
   ADMIN = "admin",
 }
 
