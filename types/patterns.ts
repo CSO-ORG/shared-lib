@@ -15,3 +15,7 @@ export enum ACCOUNT_SERVICE_MESSAGE_PATTERN {
   GET_USER_PROFILE = "account-service.get-user-profile",
   GET_PROFILE = "account-service.get-profile",
 }
+
+export enum ALERT_SERVICE_MESSAGE_PATTERN {
+  HEALTHCHECK = "alert-service.healthcheck",
+}
