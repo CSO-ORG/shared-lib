@@ -18,4 +18,5 @@ export enum ACCOUNT_SERVICE_MESSAGE_PATTERN {
 
 export enum ALERT_SERVICE_MESSAGE_PATTERN {
   HEALTHCHECK = "alert-service.healthcheck",
+  CREATE_ALERT = "alert-service.create-alert",
 }
