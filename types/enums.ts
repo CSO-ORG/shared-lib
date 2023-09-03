@@ -78,3 +78,8 @@ export enum CONTACT_TYPE {
   EMAIL = "email",
   WHATSAPP = "whatsapp",
 }
+
+export enum AGE_EXPRESSED_IN {
+  MONTH = "month",
+  YEAR = "year",
+}
