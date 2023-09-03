@@ -29,8 +29,11 @@ export enum GENERIC_MESSAGE {
   INTERNAL_SERVER_ERROR = "internal.server.error",
   MISSING_FIELDS = "missing.fields",
   RESOURCE_CREATED = "resource.created",
+  RESOURCE_NOT_CREATED = "resource.not.created",
   RESOURCE_UPDATED = "resource.updated",
+  RESOURCE_NOT_UPDATED = "resource.not.updated",
   RESOURCE_DELETED = "resource.deleted",
+  RESOURCE_NOT_DELETED = "resource.not.deleted",
   RESOURCE_NOT_FOUND = "resource.not.found",
   RESOURCE_FOUND = "resource.found",
 }
