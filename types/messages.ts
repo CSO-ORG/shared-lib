@@ -36,4 +36,5 @@ export enum GENERIC_MESSAGE {
   RESOURCE_NOT_DELETED = "resource.not.deleted",
   RESOURCE_NOT_FOUND = "resource.not.found",
   RESOURCE_FOUND = "resource.found",
+  RESOURCES_IMPORTED = "resources.imported",
 }
