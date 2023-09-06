@@ -20,4 +20,5 @@ export enum ALERT_SERVICE_MESSAGE_PATTERN {
   HEALTHCHECK = "alert-service.healthcheck",
   CREATE_ALERT = "alert-service.create-alert",
   GET_ALL = "alert-service.get-all",
+  IMPORT_ALERTS = "alert-service.import-alerts",
 }
