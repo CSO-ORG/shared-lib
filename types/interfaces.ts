@@ -22,3 +22,43 @@ export interface ILOCATION {
 export interface IPaginationFilters {
   alertType: ALERT_CATEGORY;
 }
+
+export interface IAlertSearchBody {
+  publisherId: string;
+  publisherPhoneNumber: string;
+  publisherEmail: string;
+  isFromAppUser: boolean;
+  name: string;
+  description: string;
+  status: string;
+  alertType: string;
+  icadIdentifier: string;
+  petType: string;
+  specie: string;
+  age: number;
+  ageExpressedIn: string;
+  sex: string;
+  breed: string;
+  height: string;
+  weight: string;
+  hair: string;
+  colors: string[];
+  imageUrls: string[];
+  hasTatoo: boolean;
+  hasNecklace: boolean;
+  necklaceMaterial: string;
+  necklaceColor: string;
+  hasMicrochip: boolean;
+  isSterilized: boolean;
+  location: ILOCATION;
+  dateTime: Date;
+}
+
+export interface IAlertSearchResult {
+  hits: {
+    total: number;
+    hits: Array<{
+      _source: IAlertSearchBody;
+    }>;
+  };
+}
