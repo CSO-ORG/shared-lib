@@ -21,4 +21,9 @@ export enum ALERT_SERVICE_MESSAGE_PATTERN {
   CREATE_ALERT = "alert-service.create-alert",
   GET_ALL = "alert-service.get-all",
   IMPORT_ALERTS = "alert-service.import-alerts",
+  CREATE_INDEX = "alert-service.create-index",
+  INDEX_ALERT = "alert-service.index-alert",
+  FULL_INDEX = "alert-service.full-index",
+  SEARCH = "alert-service.search",
+  GET_ALL_FROM_ELASTICSEARCH = "alert-service.get-all-from-elastic-search",
 }

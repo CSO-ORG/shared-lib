@@ -37,4 +37,8 @@ export enum GENERIC_MESSAGE {
   RESOURCE_NOT_FOUND = "resource.not.found",
   RESOURCE_FOUND = "resource.found",
   RESOURCES_IMPORTED = "resources.imported",
+  INDEX_CREATED = "index.created",
+  INDEX_NOT_CREATED = "index.not.created",
+  RESOURCE_INDEXED = "resource.indexed",
+  RESOURCE_NOT_INDEXED = "resource.not.indexed",
 }
