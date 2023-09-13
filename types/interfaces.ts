@@ -23,7 +23,7 @@ export interface IPaginationFilters {
   alertType: ALERT_CATEGORY;
 }
 
-export interface IAlertSearchBody {
+export interface IAlert {
   publisherId: string;
   publisherPhoneNumber: string;
   publisherEmail: string;
@@ -51,14 +51,14 @@ export interface IAlertSearchBody {
   hasMicrochip: boolean;
   isSterilized: boolean;
   location: ILOCATION;
-  dateTime: Date;
+  date: Date;
 }
 
 export interface IAlertSearchResult {
   hits: {
     total: number;
     hits: Array<{
-      _source: IAlertSearchBody;
+      _source: IAlert;
     }>;
   };
 }
