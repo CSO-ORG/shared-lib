@@ -26,4 +26,8 @@ export enum ALERT_SERVICE_MESSAGE_PATTERN {
   FULL_INDEX = "alert-service.full-index",
   SEARCH = "alert-service.search",
   GET_ALL_FROM_ELASTICSEARCH = "alert-service.get-all-from-elastic-search",
+  GET_ALERT = "alert-service.get-alert",
+  UPDATE_ALERT = "alert-service.update-alert",
+  DELETE_ALERT = "alert-service.delete-alert",
+  SET_MODERATION_STATUS = "alert-service.set-moderation-status",
 }

@@ -20,7 +20,8 @@ export interface ILOCATION {
 }
 
 export interface IPaginationFilters {
-  alertType: ALERT_CATEGORY;
+  alertType?: ALERT_CATEGORY;
+  searchText?: string;
 }
 
 export interface IAlert {
