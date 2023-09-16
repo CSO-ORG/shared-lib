@@ -30,4 +30,7 @@ export enum ALERT_SERVICE_MESSAGE_PATTERN {
   UPDATE_ALERT = "alert-service.update-alert",
   DELETE_ALERT = "alert-service.delete-alert",
   SET_MODERATION_STATUS = "alert-service.set-moderation-status",
+  ADD_FAVORITE = "alert-service.create-favorite",
+  GET_FAVORITES = "alert-service.create-favorite",
+  DELETE_FAVORITE = "alert-service.create-favorite",
 }
