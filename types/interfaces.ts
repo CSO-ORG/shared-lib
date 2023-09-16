@@ -65,7 +65,7 @@ export interface IAlertSearchResult {
 }
 
 export interface IUser {
-  id: number;
+  id: string;
   email: string;
   username: string;
   profilePicture: IPROFILE_PICTURE;
