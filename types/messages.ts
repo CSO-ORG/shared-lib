@@ -41,4 +41,5 @@ export enum GENERIC_MESSAGE {
   INDEX_NOT_CREATED = "index.not.created",
   RESOURCE_INDEXED = "resource.indexed",
   RESOURCE_NOT_INDEXED = "resource.not.indexed",
+  ACTION_NOT_AUTHORIZED = "action.not.authorized",
 }

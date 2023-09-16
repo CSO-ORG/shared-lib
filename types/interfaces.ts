@@ -1,4 +1,4 @@
-import { ALERT_CATEGORY } from "./enums";
+import { ACCOUNT_TYPE, ALERT_CATEGORY } from "./enums";
 
 export interface IPROFILE_PICTURE {
   public_id: string;
@@ -62,4 +62,17 @@ export interface IAlertSearchResult {
       _source: IAlert;
     }>;
   };
+}
+
+export interface IUser {
+  id: number;
+  email: string;
+  username: string;
+  profilePicture: IPROFILE_PICTURE;
+  password: string;
+  accountType: ACCOUNT_TYPE;
+  refreshToken: string;
+  isEmailVerfied: boolean;
+  createdAt: Date;
+  updatedAt: Date;
 }
