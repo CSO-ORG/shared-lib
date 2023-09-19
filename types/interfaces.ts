@@ -57,7 +57,7 @@ export interface IAlert {
   isSterilized: boolean;
   location: ILOCATION;
   date: Date;
-  prime: number;
+  prime?: number;
 }
 
 export interface IAlertSearchResult {
