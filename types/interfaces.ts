@@ -18,9 +18,9 @@ export interface ILOCATION {
   departmentName?: string;
   departmentCode?: string;
   coords?: {
-		latitude?: number;
-		longitude?: number;
-	};
+    latitude?: number;
+    longitude?: number;
+  };
 }
 
 export interface IPaginationFilters {
@@ -57,6 +57,7 @@ export interface IAlert {
   isSterilized: boolean;
   location: ILOCATION;
   date: Date;
+  prime: number;
 }
 
 export interface IAlertSearchResult {
