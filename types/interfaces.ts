@@ -17,6 +17,10 @@ export interface ILOCATION {
   postalCode?: string;
   departmentName?: string;
   departmentCode?: string;
+  coords?: {
+		latitude?: number;
+		longitude?: number;
+	};
 }
 
 export interface IPaginationFilters {
