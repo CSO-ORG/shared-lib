@@ -26,6 +26,13 @@ export interface ILOCATION {
 export interface IPaginationFilters {
   alertType?: ALERT_CATEGORY;
   searchText?: string;
+  dateRange?: string[];
+  breeds?: string[];
+  suspicious?: boolean;
+  cities?: string[];
+  départementCodes?: string[];
+  species?: string[];
+  rewardRange: number[];
 }
 
 export interface IAlert {
