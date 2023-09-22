@@ -30,7 +30,7 @@ export interface IPaginationFilters {
   breeds?: string[];
   suspicious?: boolean;
   cities?: string[];
-  départementCodes?: string[];
+  departmentCodes?: string[];
   species?: string[];
   rewardRange: number[];
 }
