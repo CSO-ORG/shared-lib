@@ -24,15 +24,15 @@ export interface ILOCATION {
 }
 
 export interface IPaginationFilters {
-  alertType?: ALERT_CATEGORY;
+  alertType?: ALERT_CATEGORY; // check
   searchText?: string;
   dateRange?: string[];
-  breeds?: string[];
-  suspicious?: boolean;
-  cities?: string[];
-  departmentCodes?: string[];
-  species?: string[];
-  rewardRange: number[];
+  breeds?: string[]; // check
+  suspicious?: boolean; // check
+  cities?: string[]; // check
+  departmentCodes?: string[]; // check
+  species?: string[]; // check
+  rewardRange: number[]; // check
 }
 
 export interface IAlert {
@@ -64,7 +64,7 @@ export interface IAlert {
   isSterilized: boolean;
   location: ILOCATION;
   date: Date;
-  prime?: number;
+  reward?: number;
 }
 
 export interface IAlertSearchResult {

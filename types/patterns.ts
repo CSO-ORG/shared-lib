@@ -33,4 +33,6 @@ export enum ALERT_SERVICE_MESSAGE_PATTERN {
   ADD_FAVORITE = "alert-service.create-favorite",
   GET_FAVORITES = "alert-service.get-favorite",
   DELETE_FAVORITE = "alert-service.delete-favorite",
+  GET_ALL_COORDINATES = "alert-service.get-all-coordinates",
+  GET_UNPUBLISHED_ALERTS = "alert-service.get-unpublished-alerts",
 }
