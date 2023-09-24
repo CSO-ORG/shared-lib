@@ -189,7 +189,7 @@ export enum HAIR_TYPE {
 }
 
 // Types de colliers
-export enum COLLAR_TYPE {
+export enum NECKLACE_CATEGORY {
   STANDARD = "Standard",
   MARTINGALE = "Martingale",
   CHOKE_CHAIN = "Choke Chain",
@@ -204,7 +204,7 @@ export enum COLLAR_TYPE {
 }
 
 // Matériels du collier
-export enum COLLAR_MATERIAL {
+export enum NECKLACE_MATERIAL {
   NYLON = "Nylon",
   LEATHER = "Leather",
   METAL = "Metal",
@@ -216,7 +216,7 @@ export enum COLLAR_MATERIAL {
 }
 
 // Couleurs du collier
-export enum COLLAR_COLOR {
+export enum NECKLACE_COLOR {
   BLACK = "Black",
   BROWN = "Brown",
   WHITE = "White",
