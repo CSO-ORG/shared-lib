@@ -33,6 +33,7 @@ export interface IPaginationFilters {
   departmentCodes?: string[]; // check
   species?: string[]; // check
   rewardRange: number[]; // check
+  publisherId: string;
 }
 
 export interface IAlert {
