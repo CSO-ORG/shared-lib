@@ -34,6 +34,7 @@ export interface IPaginationFilters {
   species?: string[]; // check
   rewardRange: number[]; // check
   publisherId: string;
+  isPublished: boolean;
 }
 
 export interface IAlert {
